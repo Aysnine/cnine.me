@@ -5,10 +5,17 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.3",
+    "cz-conventional-changelog": "3.3.0",
     "vuepress": "^1.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
