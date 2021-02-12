@@ -21,3 +21,7 @@
 对于建站，经历过 wap、WordPress、Hexo 和 Vuepress，有点麻了，就 [Vuepress](https://vuepress.vuejs.org) 吧，在默认主题的基础上改改配色就够了。
 
 关于部署，之前还没参加工作，部署在免费的 Github Pages，缺点就是国内访问很慢。这次最好是能部署在国内的自有服务器，或者 CDN 之类的。
+
+## 旧站点怎么办
+
+这次就不打算迁移旧站点的内容了，旧的内容放在 [old.cnine.me](https://old.cnine.me/) 以供回忆吧。
