@@ -19,6 +19,14 @@ module.exports = {
           type: 'github',
           link: 'https://github.com/Aysnine',
         },
+        {
+          type: 'codesandbox',
+          link: 'https://codesandbox.io/u/Aysnine',
+        },
+        {
+          type: 'codepen',
+          link: 'https://codepen.io/aysnine',
+        },
       ],
       copyright: [
         {
