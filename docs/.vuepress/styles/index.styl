@@ -1,19 +1,19 @@
-$header-shadow-length = 20px;
+$header-shadow-length = 20px
+$shadow = 0 0 $header-shadow-length $header-shadow-length white
 
 #header
-  box-shadow 0 0 $header-shadow-length $header-shadow-length white;
-  &:hover
-    box-shadow 0 0 $header-shadow-length $header-shadow-length white;
+  &, &:hover
+    box-shadow $shadow
 .mobile-header-bar
-  box-shadow 0 0 $header-shadow-length $header-shadow-length white;
+  box-shadow $shadow
 
 .vuepress-blog-theme-content
-  box-shadow: none !important
+  box-shadow none !important
   .content__default
     h1
       display none
 
 .vuepress-toc
-  top: $header-shadow-length * 2 !important
-  right: unset
-  left: 10px
+  top $header-shadow-length * 2 !important
+  right unset
+  left 10px

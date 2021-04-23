@@ -1,9 +1,6 @@
 module.exports = {
   title: 'cnine.me',
   description: 'personal website',
-  // head: [
-  //   ['script', { async: true, type: 'text/javascript', src: 'https://cusdis.com/js/cusdis.es.js' }]
-  // ],
   themeConfig: {
     nav: [
       {
