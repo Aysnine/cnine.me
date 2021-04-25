@@ -37,4 +37,6 @@ export default {
   font-weight bold
 .comment-component *
   box-sizing border-box
+.comment-component input
+  width 170px !important
 </style>
