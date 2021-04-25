@@ -2,6 +2,14 @@ module.exports = {
   title: 'cnine.me',
   description: 'personal website',
   themeConfig: {
+    directories: [
+      {
+        id: 'post',
+        dirname: '_posts',
+        path: '/',
+        title: ''
+      },
+    ],
     nav: [
       {
         text: 'Blog',
