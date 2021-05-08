@@ -35,8 +35,4 @@ export default {
   padding 10px 0
   border-bottom 2px solid
   font-weight bold
-.comment-component *
-  box-sizing border-box
-.comment-component input
-  width 170px !important
 </style>
